@@ -1,21 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Alura-Entity-Framework-Core-Banco-de-dados-de-forma-eficiente\\Alura.Loja\\Alura.Loja.Core.ConsoleApp\\Alura.Loja.Core.ConsoleApp.csproj": {}
+    "D:\\src\\Alura-Entity-Framework-Core-Banco-de-dados-de-forma-eficiente\\Alura.Loja\\Alura.Loja.Core.ConsoleApp\\Alura.Loja.Core.ConsoleApp.csproj": {}
   },
   "projects": {
-    "C:\\Alura-Entity-Framework-Core-Banco-de-dados-de-forma-eficiente\\Alura.Loja\\Alura.Loja.Core.ConsoleApp\\Alura.Loja.Core.ConsoleApp.csproj": {
+    "D:\\src\\Alura-Entity-Framework-Core-Banco-de-dados-de-forma-eficiente\\Alura.Loja\\Alura.Loja.Core.ConsoleApp\\Alura.Loja.Core.ConsoleApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Alura-Entity-Framework-Core-Banco-de-dados-de-forma-eficiente\\Alura.Loja\\Alura.Loja.Core.ConsoleApp\\Alura.Loja.Core.ConsoleApp.csproj",
+        "projectUniqueName": "D:\\src\\Alura-Entity-Framework-Core-Banco-de-dados-de-forma-eficiente\\Alura.Loja\\Alura.Loja.Core.ConsoleApp\\Alura.Loja.Core.ConsoleApp.csproj",
         "projectName": "Alura.Loja.Core.ConsoleApp",
-        "projectPath": "C:\\Alura-Entity-Framework-Core-Banco-de-dados-de-forma-eficiente\\Alura.Loja\\Alura.Loja.Core.ConsoleApp\\Alura.Loja.Core.ConsoleApp.csproj",
-        "packagesPath": "C:\\Users\\caio.saraiva\\.nuget\\packages\\",
-        "outputPath": "C:\\Alura-Entity-Framework-Core-Banco-de-dados-de-forma-eficiente\\Alura.Loja\\Alura.Loja.Core.ConsoleApp\\obj\\",
+        "projectPath": "D:\\src\\Alura-Entity-Framework-Core-Banco-de-dados-de-forma-eficiente\\Alura.Loja\\Alura.Loja.Core.ConsoleApp\\Alura.Loja.Core.ConsoleApp.csproj",
+        "packagesPath": "C:\\Users\\caiob\\.nuget\\packages\\",
+        "outputPath": "D:\\src\\Alura-Entity-Framework-Core-Banco-de-dados-de-forma-eficiente\\Alura.Loja\\Alura.Loja.Core.ConsoleApp\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
         "configFilePaths": [
-          "C:\\Users\\caio.saraiva\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\caiob\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
