@@ -12,8 +12,26 @@ namespace Alura.Loja.Core.ConsoleApp
         {
             //GravarUsandoAdoNet();
             //GravarUsandoEntity();
+            //RecuperarProdutos();
+            //ExcluirProdutos();
+            //RecuperarProdutos();
+            AtualizarProduto();
+        }
+
+        private static void AtualizarProduto()
+        {
+            //Incluir produto
+            GravarUsandoEntity();
             RecuperarProdutos();
-            ExcluirProdutos();
+
+            //Atualizar produto
+            using (var repo = new LojaContext())
+            {
+                Produto primeiro = repo.Produtos.First();
+                primeiro.Nome = "HP - Editado";
+                repo.Produtos.Update(primeiro);
+                repo.SaveChanges();
+            }
             RecuperarProdutos();
         }
 
