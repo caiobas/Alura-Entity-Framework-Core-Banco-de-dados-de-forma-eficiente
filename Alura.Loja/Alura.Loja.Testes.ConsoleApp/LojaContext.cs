@@ -15,7 +15,10 @@ namespace Alura.Loja.Testes.ConsoleApp
             modelBuilder
                 .Entity<PromocaoProduto>()
                 .HasKey(pp => new { pp.PromocaoId, pp.ProdutoId});
-            
+
+            modelBuilder
+                .Entity<Endereco>()
+                .ToTable("Enderecos");
             modelBuilder
                 .Entity<Endereco>()
                 .Property<int>("ClienteId");
